@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Align heading to left */
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    /* Fixed width */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    /* Remove default margin */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-links {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+}
+
+input[type="text"],
+textarea {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input[type="date"] {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    height: 42px;
+    /* Ensures it matches text input height */
+    appearance: none;
+    /* Remove browser default styling (Safari, Firefox) */
+    -webkit-appearance: none;
+    /* Chrome/Safari */
+    -moz-appearance: none;
+    /* Firefox */
+    position: relative;
+}
+
+.filter-container {
+    padding-top: 30px;
+}
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-form label {
+    white-space: nowrap;
+}
+
+.filter-form input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* space between items */
+    margin-bottom: 15px;
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  gap: 10px;
+}
+
+.inputs-column {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.inputs-column input {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+
+.actions-row {
+  display: flex;
+  justify-content: space-between; /* pushes children to opposite ends */
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
